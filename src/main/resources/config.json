@@ -1,0 +1,48 @@
+{
+	"thingworx": {
+	    "serverSettings": {
+	        "appKey": "f39ee64e-8dc5-4d39-ab7b-b58b1b5dbca5",
+	        "isSecure": true,
+	        "ignoreSSLErrors": true   
+        },
+        "clientSettings": {
+        	"identifier": "Server Identifier"
+        }
+    },
+    
+    "aditec": {
+    	"identifier" : "linux.aditec",
+    	"serverSettings": {
+    		"isSecure": false,
+    		"domain": "192.168.101.87",
+    		"port": "5001"
+    	}	
+    },
+    		
+     "sapb1DB":{
+		 "identifier": "SAPDataBaseConnection",
+		 "serverSettings": {
+			 "address": "localhost",
+			 "user": "SAPUser",
+			 "password":"SecretSAPPassword",
+			 "databaseName": "SAPDBName",
+			 "port": "1433"
+		 }
+    },
+	"localDB": {
+		"serverSettings": {
+			"address": "localhost",
+			"user": "SA",
+			"password":"LOCALDBPASSWORD",
+			"databaseName": "LocalDBName",
+			"port": "1433"
+		}
+	},
+	"reportingServer": {
+		"serverSettings": {
+			"isSecure": false,
+			"address": "localhost",
+			"port": "8081"
+		}
+	}
+}
